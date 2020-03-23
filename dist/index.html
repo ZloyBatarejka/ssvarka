@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svarka</title>
+  </head>
+  <body>
+    <div class="container-fluid wrapper">
+      <div class="row wrapper__row">
+        <div class="col">
+          <div class="block">
+            <nav class="navigation d-flex ">
+              <ul
+                class="navigation__list w-100 d-flex flex-row justify-content-between  "
+              >
+                <li class="navigation__item ">
+                  <p id="dLabel" role="button" data-toggle="dropdown">
+                    Инструменты<span class="caret"></span>
+                  </p>
+                  <ul
+                    class="dropdown-menu multi-level"
+                    role="menu"
+                    aria-labelledby="dropdownMenu"
+                  >
+                    <li class="dropdown-submenu">
+                      <a tabindex="-1" href="#">Уровень 2</a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a tabindex="-1" href="#">Уровень 2</a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a href="#">Уровень 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                            <li><a href="#">Уровень 4</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="navigation__item" id="table_toggler">Отображение</li>
+              </ul>
+            </nav>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="goods ">
+                    <div class="row" id="sortable">
+                      <div class="col-md-4 goods__legend">
+                        <ul>
+                          <li class="img">Изображение</li>
+                          <li class="name">Наименование</li>
+                          <li class="disc">Описание</li>
+                          <li class="price">Цена</li>
+                        </ul>
+                      </div>
+
+                      <div class="col-md-4 ui-state-default">
+                        <div class="goods__card card">
+                          <img
+                            src="./svarka.jpeg"
+                            alt="svarka"
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Болгарка 1</h5>
+                            <p class="title-change">
+                              <input type="text" class="title-input" />
+                              <button class="title-ok">ok</button>
+                            </p>
+                            <p class="card-text">Болгарка импортная</p>
+                            <p class="card-price">200р</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 ui-state-default">
+                        <div class="goods__card card ">
+                          <img
+                            src="./svarka.jpeg"
+                            alt="svarka"
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Болгарка 2</h5>
+                            <p class="title-change">
+                              <input type="text" class="title-input" />
+                              <button class="title-ok">ok</button>
+                            </p>
+                            <p class="card-text">Болгарка импортная</p>
+                            <p class="card-price">200р</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 ui-state-default">
+                        <div class="goods__card card">
+                          <img
+                            src="./svarka.jpeg"
+                            alt="svarka"
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Болгарка 3</h5>
+                            <p class="title-change">
+                              <input type="text" class="title-input" />
+                              <button class="title-ok">ok</button>
+                            </p>
+                            <p class="card-text">Болгарка импортная</p>
+                            <p class="card-price">200р</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 ui-state-default">
+                        <div class="goods__card card">
+                          <img
+                            src="./svarka.jpeg"
+                            alt="svarka"
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Болгарка 4</h5>
+                            <p class="title-change">
+                              <input type="text" class="title-input" />
+                              <button class="title-ok">ok</button>
+                            </p>
+                            <p class="card-text">Болгарка импортная</p>
+                            <p class="card-price">200р</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="main.540738d00797d42e7b32.js"></script></body>
+</html>
